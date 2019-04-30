@@ -1,0 +1,186 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <META NAME="description" CONTENT="<-BlogAndPostTitle-> - <-BlogDescription->">
+    <META NAME="keywords" CONTENT="<-BlogAndPostTitle->,<-BlogId->, Blog, Weblog, Persian,Iran, Iranian, Farsi, Weblogs, Blogs">
+    <META NAME="DesignerUrl" CONTENT="http://avazak.ir">
+    <META NAME="Designer" CONTENT="AVAZAK">
+    <link rel="alternate" type="application/rss+xml" title="<-BlogTitle->" href="<-BlogXmlLink->" />
+    <meta name="GENERATOR" content="BlogFa.com">
+    <title><-BlogAndPostTitle-></title>
+    <link href="http://avazak.ir/Theme/style/543.css" type="text/css" rel="stylesheet">
+    </style>
+
+    <script  language="javascript">
+                                  function GetBC(lngPostid)
+    {
+        intTimeZone=<-BlogTimeZone->;
+        strBlogId="<-BlogId->";
+        intCount=-1;
+        strResult="";
+    try {
+        for (i=0;i<BlogComments.length;i+=2)
+    {
+        if (BlogComments[i]==lngPostid)
+    intCount=BlogComments[i+1] ;
+    }
+    }  catch( e) {
+    }
+    if ( intCount==-1)  strResult="آرشیو نظرات";
+    if ( intCount==0)  strResult="نظر بدهید";
+    if ( intCount==1)  strResult="یک نظر";
+    if ( intCount>1)  strResult=intCount + " نظر" ;
+
+    strUrl="http://commenting.blogfa.com/?blogid=" +strBlogId + "&postid=" + lngPostid + "&timezone=" + intTimeZone ;
+    strResult ="<a href=\"javascript:void(0)\" onclick=\"javascript:window.open('" + strUrl + "','blogfa_comments','status=yes,scrollbars=yes,toolbar=no,menubar=no,location=no ,width=500px,height=500px')\" >" +  strResult + " </a>" ;
+
+    document.write ( strResult ) ;
+    }
+
+    function OpenLD()
+    {
+        window.open('LinkDump.aspx','blogfa_ld','status=yes,scrollbars=yes,toolbar=no,menubar=no,location=no ,width=500px,height=500px');
+        return true;
+    }
+    </script>
+
+      </head>
+
+        <body>
+    <!--Design By : avazak.ir-->
+        <div align="center">
+                           <table border="0" width="1000" cellspacing="0" cellpadding="0" class="Avazak">
+                                                                                                        <tr><td colspan="3" class="page" dir="rtl">
+                                                                                                                                                  <div class="header">
+                                                                                                                                                                     <h1><-BlogTitle-></h1>
+                                                                                                                                                                                        <p class="subtitle"><-BlogDescription-></a>
+                                                                                                                                                                                                                                 <p class="menu"><a href="<-BlogUrl->">صفحه اصلی</a> |
+<a href="/posts">عناوین مطالب</a> |
+<a rel="follow" title="تماس با ما" href="http://avazak.ir/abzar/contact1/mail/?email=<-BlogEmail->">تماس با من</a> |
+<a href="<-BlogProfileLink->">پروفایل</a> |
+<a rel="follow" title="قالب وبلاگ" href="http://avazak.ir/">قالب وبلاگ</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              </td></tr>
+    <!-- end header -->
+    <!--Design By : avazak.ir-->
+        <td width="200" valign="top" dir="rtl">
+                                              <div class="sidebar-l">
+
+                                                                    <h1>آخرین مطالب</h1>
+                                                                                     <BlogPreviousItems items="10">
+                                                                                                                  <div class="Link"><a href="<-PostLink->" title="<-PostDate->"><-PostTitle-></a></div>
+                                                                                                                                                                                                   </BlogPreviousItems>
+                                                                                                                                                                                                     <div class="FooterSid"></div>
+    <!--Design By : avazak.ir-->
+        <BlogLinkDumpBlock>
+        <h1>لینک دوستان</h1>
+                         <BlogLinkDump>
+                         <div class="Link"><a href="<-LinkUrl->" target="_blank" title="<-LinkDescription->" ><-LinkTitle-></a></div>
+                                                                                                                                 </BlogLinkDump>
+
+                                                                                                                                   <div class="Link"><a href="javascript:void(0)" onclick ="OpenLD();">آرشيو پيوندهاي روزانه</a></div>
+                                                                                                                                                                                                                                  <div class="FooterSid"></div>
+                                                                                                                                                                                                                                                           </BlogLinkDumpBlock>
+    <!--Design By : avazak.ir-->
+
+        <h1>پیوندها</h1>
+                     <BlogLinksBlock>
+                     <BlogLinks>
+                     <div class="Link"><a href="<-LinkUrl->" target="_blank" >  <-LinkTitle-></a></div>
+                                                                                                   </BlogLinks>
+                                                                                                     </BlogLinksBlock>
+                                                                                                       <div class="Link" style="font-size:7pt">
+                                                                                                                                              <a title="قالب بلاگفا" href="http://avazak.ir/tag/قالب-بلاگفا/" target="_blank">قالب بلاگفا</a>|<a href="http://tools.avazak.ir/theme/avazak/543/قالب-وبلاگ-سه-ستونه-عروسکی.php" title="قالب وبلاگ عروسکی" target="_blank">قالب وبلاگ عروسکی</a></div>
+                                                                                                                                                                                                                                                                                                                                                                                                <div class="Link" style="font-size:7pt"><a href="http://www.linetext.ir/" title="تکست و متن آهنگ" target="_blank">تکست و متن آهنگ</a></div><div class="Link"><a target="_blank" title="گالری عکس" href="http://gallery.avazak.ir/">گالري عکس هاي زیبا</a></div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           <div class="FooterSid"></div>
+
+    <!--Design By : avazak.ir-->
+        <h1>سایت آوازک</h1>
+                        <div class="Link" style="font-size:7pt"><a href="http://gallery.avazak.ir" title="دانلود عکس" target="_blank">دانلود عکس</a>|<a href="https://www.mashhoor.ir/" title="ثبت شرکت" target="_blank">ثبت شرکت</a></div>
+                                                                                                                                                                                                                                       <div class="Link" style="font-size:7pt">﻿<a href="https://sikafile.ir/page/addshope" title="فروشگاه ساز رایگان فایل" target="_blank">فروشگاه ساز رایگان فایل</a>|<a href="http://www.helpkade.com/category/%d8%b9%da%a9%d8%b3-%d8%a8%d8%b1%d8%a7%db%8c-%d9%be%d8%b1%d9%88%d9%81%d8%a7%db%8c%d9%84/" title="عکس پروفایل" target="_blank">عکس پروفایل</a></div><div class="FooterSid"></div>
+    <!--Design By : avazak.ir-->
+        <h1>طراح قالب: آوازک</h1>
+                              <div style="text-align: Center"  >
+                                                               [ طراح قالب: <a rel="follow" href="http://avazak.ir/tag/قالب-بلاگفا" tite="قالب بلاگفا">آوازک</a> ]<br />
+                                                                                                                                                                       <div class="FooterSid"></div>
+                                                                                                                                                                                                </td>
+    <!-- end sidebar-l -->
+    <!--Design By : avazak.ir-->
+        <td width="550" valign="top" dir="rtl">
+                                              <div class="bodyposts">
+                                                                    <BLOGFA>
+                                                                    <div class="post">
+                                                                                     <a name="<-PostId->"></a>
+                                                                                                            <div class="Title"><a href="<-PostLink->"><-PostTitle-></a></div>
+                                                                                                                                                                         <div class="Content"><-PostContent-><BlogExtendedPost><br /><a href="<-PostLink->">ادامه مطلب</a></BlogExtendedPost></div>
+                                                                                                                                                                                                                                                                                               <div class ="date">
+                                                                                                                                                                                                                                                                                                                 <p class="r">[ <-PostDate-> ]  [ <-PostTime-> ]  [ <-PostAuthor-> ]
+    <p class="l">[ <BlogComment><span dir="rtl"> <script type="text/javascript">GetBC(<-PostId->);</script>
+                                                                                                    </BlogComment> ]</div></div>
+                                                                                                                            </BLOGFA>
+                                                                                                                              </div><div class="number"><p align="center"><font face="Tahoma" style="font-size: 9pt">
+                                                                                                                                                                                                                    <BlogPreviousPageBlock><a href="<-BlogPreviousPageLink->">
+                                                                                                                                                                                                                                                                             << مطالب جدیدتر</a></BlogPreviousPageBlock>
+                                                                                                                                                                                                                                                                                                         <BlogNextPageBlock><a href="<-BlogNextPageLink->">مطالب
+                                                                                                                                                                                                                                                                                                                                                          قدیمی‌تر >></a></BlogNextPageBlock>
+                                                                                                                                                                                                                                                                                                                                                                           <br /><br /></div></BlogNextAndPreviousBlock></div>
+                                                                                                                                                                                                                                                                                                                                                                                                                          </div></td>
+    <!-- end post -->
+    <!--Design By : avazak.ir-->
+        <td width="200" valign="top" dir="rtl">
+                                              <div class="sidebar-r">
+                                                                    <BlogProfile>
+                                                                    <h1>درباره وبلاگ</h1>
+                                                                                      <div class="About">
+                                                                                                        <div style="text-align: justify"  >
+                                                                                                                                          <BlogPhoto>	<div align=center > <img src="<-BlogPhotoLink->" >   </div>    </BlogPhoto>
+                                                                                                                                                                                                                          <-BlogAbout-></div></div>
+                                                                                                                                                                                                                                               <div class="FooterSid"></div>
+    <!--Design By : avazak.ir-->
+        <BlogAuthorsBlock>
+        <h1>نویسندگان</h1>
+                       <BlogAuthors>
+                       <div class="Link"><a href="<-AuthorLink->"   ><-AuthorName-></a></div>
+                                                                                         </BlogAuthors>
+                                                                                           <div class="FooterSid"></div>
+                                                                                                                    </BlogAuthorsBlock>
+    <!--Design By : avazak.ir-->
+        <BlogCategoriesBlock>
+        <h1>آرشیو موضوعی</h1>
+                          <BlogCategories>
+                          <div class="Link"><a href="<-CategoryLink->"><-CategoryName-></a></div>
+                                                                                             </BlogCategories>
+                                                                                               <div class="FooterSid"></div>
+                                                                                                                        </BlogCategoriesBlock>
+    <!--Design By : avazak.ir-->
+        <h1>آرشیو ماهانه</h1>
+                          <BlogArchive>
+                          <div class="Link"><a href="<-ArchiveLink->"><-ArchiveTitle-></a><br /></div>
+                                                                                                  </BlogArchive>
+                                                                                                    <div class="FooterSid"></div>
+    <!--Design By : avazak.ir-->
+        <h1>لینک های ویژه</h1>
+                           <div class="Link"><a title="انجمن وبلاگ نویسان" href="http://forum.avazak.ir">انجمن وبلاگ نویسان</a></div>
+
+                                                                                                                                 <div class="Link"><a title="قالب رایگان" href="http://avazak.ir">قالب وبلاگ</a></div>
+                                                                                                                                                                                                                  <div class="Link"><a title="کد آهنگ برای وبلاگ" href="http://music.avazak.ir">کد آهنگ</a></div>
+
+                                                                                                                                                                                                                                                                                                             <div class="FooterSid"></div>
+    <!--Design By : avazak.ir-->
+        <div class="custom">
+                           <h1>دیگر امکانات</h1>
+                                             <div align="center"><-BlogCustomHtml-></div></div>
+                                                                                           <div class="FooterSid"></div>
+                                                                                                                    </td></tr>
+                                                                                                                           </div></div>
+    <!-- end sidebar-r -->
+    <!--Design By : avazak.ir-->
+        <tr><td width="1000" colspan="3" class="Footer" dir="rtl">
+                                                                 [ <a title="قالب وبلاگ" href="http://avazak.ir/">طراح قالب: <a tite="قالب وبلاگ" href="http://avazak.ir">آوازک</a> | <a title="قالب وبلاگ" href="http://avazak.ir">Theme By avazak.ir</a> ]<br />
+                                                                                                                                                                                                                                                                 </td></tr></table></div></div>
+    <!-- end Footer -->
+    <!--Design By : avazak.ir-->
+        </body>
+
+          </html>
+
